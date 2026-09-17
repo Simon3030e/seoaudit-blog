@@ -28,9 +28,9 @@ COPY = {
         "price_cards": [
             {"name": "Vstupný audit", "hours": "bezplatný", "price": 0, "featured": False,
              "items": ["30-minútový hovor", "Rýchla kontrola webu", "Odhad, čo by SEO u vás znamenalo"]},
-            {"name": "Plný audit: firemný web", "hours": "8 hodín", "price": 96, "featured": True,
+            {"name": "Plný audit: web", "hours": "10 hodín", "price": 120, "featured": True,
              "items": ["Technický audit", "Obsahový audit a plán", "AI viditeľnosť (ChatGPT, Gemini)", "Plán opráv s prioritami"]},
-            {"name": "Plný audit: e-shop", "hours": "10 až 15 hodín", "price": 180, "featured": False,
+            {"name": "Plný audit: e-shop", "hours": "15 hodín", "price": 180, "featured": False,
              "items": ["Kategórie a produkty", "Filtre a XML feedy", "Technický aj obsahový audit", "Plán opráv s prioritami"]},
         ],
         "price_badge": "Najčastejšia voľba",
@@ -117,9 +117,9 @@ COPY = {
         "price_cards": [
             {"name": "Vstupní audit", "hours": "bezplatný", "price": 0, "featured": False,
              "items": ["30minutový hovor", "Rychlá kontrola webu", "Odhad, co by SEO u vás znamenalo"]},
-            {"name": "Plný audit: firemní web", "hours": "8 hodin", "price": 96, "featured": True,
+            {"name": "Plný audit: web", "hours": "10 hodin", "price": 120, "featured": True,
              "items": ["Technický audit", "Obsahový audit a plán", "AI viditelnost (ChatGPT, Gemini)", "Plán oprav s prioritami"]},
-            {"name": "Plný audit: e-shop", "hours": "10 až 15 hodin", "price": 180, "featured": False,
+            {"name": "Plný audit: e-shop", "hours": "15 hodin", "price": 180, "featured": False,
              "items": ["Kategorie a produkty", "Filtry a XML feedy", "Technický i obsahový audit", "Plán oprav s prioritami"]},
         ],
         "price_badge": "Nejčastější volba",

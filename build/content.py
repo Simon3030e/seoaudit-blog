@@ -70,7 +70,7 @@ FAQ = {
     "sk": {
         "common": [
             ("Koľko stojí SEO audit?",
-             "Bezplatný vstupný audit je zadarmo. Plný audit začina na 5 hodinách (60 EUR) pre malý web, e-shop zvyčajne 10 až 15 hodín (120 až 180 EUR). V pláne vidíte presne, čo dostanete."),
+             "Bezplatný vstupný audit je zadarmo. Plný audit začina na 5 hodinách (60 EUR) pre malý web, e-shop 15 hodín (180 EUR). V pláne vidíte presne, čo dostanete."),
             ("Ako dlho trvá SEO audit?",
              "Plný audit zvyčajne 5 až 10 pracovných dní od hovoru. Dostanete ho v čitateľnej podobe, nie ako surový výpis z nástrojov."),
             ("Čo dostanem v audite?",
@@ -86,7 +86,7 @@ FAQ = {
         ],
         "cennik": [
             ("Prečo je vstupný audit bezplatný?", "Lebo rozhodnutie o spolupráci potrebujete podložené číslami, nie sľubmi. Ak vám čísla nebudú dávať zmysel, nič neplatíte."),
-            ("Koľko stojí plný audit?", "Malý web 5 hodín (60 EUR), firemný web 8 hodín (96 EUR), e-shop 10 až 15 hodín (120 až 180 EUR)."),
+            ("Koľko stojí plný audit?", "Web 10 hodín (120 EUR), e-shop 15 hodín (180 EUR)."),
         ],
         "proces": [
             ("Čo potrebujem na audit?", "Adresu webu a 30-minútový hovor. Prístup k Search Console a analytics pomáha, ale nie je podmienkou."),
@@ -96,7 +96,7 @@ FAQ = {
     "cz": {
         "common": [
             ("Kolik stojí SEO audit?",
-             "Bezplatný vstupní audit je zdarma. Plný audit začíná na 5 hodinách (60 EUR) pro malý web, e-shop zpravidla 10 až 15 hodin (120 až 180 EUR). V plánu vidíte přesně, co dostanete."),
+             "Bezplatný vstupní audit je zdarma. Plný audit začíná na 5 hodinách (60 EUR) pro malý web, e-shop 15 hodin (180 EUR). V plánu vidíte přesně, co dostanete."),
             ("Jak dlouho trvá SEO audit?",
              "Plný audit zpravidla 5 až 10 pracovních dnů od hovoru. Dostanete ho v čitelné podobě, ne jako surový výpis z nástrojů."),
             ("Co dostanu v auditu?",
@@ -112,7 +112,7 @@ FAQ = {
         ],
         "cennik": [
             ("Proč je vstupní audit bezplatný?", "Protože rozhodnutí o spolupráci potřebujete podložené čísly, ne sliby. Když vám čísla nebudou dávat smysl, nic neplatíte."),
-            ("Kolik stojí plný audit?", "Malý web 5 hodin (60 EUR), firemní web 8 hodin (96 EUR), e-shop 10 až 15 hodin (120 až 180 EUR)."),
+            ("Kolik stojí plný audit?", "Web 10 hodin (120 EUR), e-shop 15 hodin (180 EUR)."),
         ],
         "proces": [
             ("Co potřebuji na audit?", "Adresu webu a 30minutový hovor. Přístup k Search Console a analytics pomáhá, ale není podmínkou."),
@@ -214,9 +214,9 @@ DETAIL = [
 
 DETAIL_FAQ = {
     0: {
-        "sk": [("Koľko stojí kompletný audit?", "Malý web 5 hodín (60 EUR), firemný 8 hodín (96 EUR), e-shop 10 až 15 hodín. Vstupný audit a hovor sú bezplatné."),
+        "sk": [("Koľko stojí kompletný audit?", "Web 10 hodín (120 EUR), e-shop 15 hodín (180 EUR). Vstupný audit a hovor sú bezplatné."),
                ("Audit aj pre AI viditeľnosť?", "Áno, súčasťou je kontrola toho, či vás ChatGPT, Gemini a AI Overviews odporúčajú a čo na to chýba.")],
-        "cz": [("Kolik stojí kompletní audit?", "Malý web 5 hodin (60 EUR), firemní 8 hodin (96 EUR), e-shop 10 až 15 hodin. Vstupní audit a hovor jsou bezplatné."),
+        "cz": [("Kolik stojí kompletní audit?", "Web 10 hodin (120 EUR), e-shop 15 hodin (180 EUR). Vstupní audit a hovor jsou bezplatné."),
                ("Audit i pro AI viditelnost?", "Ano, součástí je kontrola toho, zda vás ChatGPT, Gemini a AI Overviews doporučují a co na to chybí.")],
     },
     1: {
@@ -246,7 +246,7 @@ BLOG_POSTS = {
         {"href": "blog/seo-audit-online/", "title": "SEO audit online: ktoré nástroje skutočne potrebujete",
          "desc": "Search Console, PageSpeed, crawl nástroje. Čo je zdarma, čo stojí za to a čo je len marketing.", "tag": "Nástroje"},
         {"href": "blog/seo-audit-cena/", "title": "Koľko stojí SEO audit a čo za to dostanete",
-         "desc": "Cena auditu od 60 EUR. Čo je v cene, čo nie a ako spoznať audit, ktorý nič nevraví.", "tag": "Cena"},
+         "desc": "Cena auditu od 120 EUR. Čo je v cene, čo nie a ako spoznať audit, ktorý nič nevraví.", "tag": "Cena"},
         {"href": "blog/audit-eshopu/", "title": "SEO audit e-shopu: čo skontrolovať ako prvé",
          "desc": "Kategórie, produkty, filtre a feedy. 15 bodov špecifických pre e-shopy na Shoptet a Upgates.", "tag": "E-shop"},
     ],
@@ -256,7 +256,7 @@ BLOG_POSTS = {
         {"href": "blog/seo-audit-online/", "title": "SEO audit online: které nástroje opravdu potřebujete",
          "desc": "Search Console, PageSpeed, crawl nástroje. Co je zdarma, co stojí za to a co je jen marketing.", "tag": "Nástroje"},
         {"href": "blog/seo-audit-cena/", "title": "Kolik stojí SEO audit a co za to dostanete",
-         "desc": "Cena auditu od 60 EUR. Co je v ceně, co ne a jak poznat audit, který nic neříká.", "tag": "Cena"},
+         "desc": "Cena auditu od 120 EUR. Co je v ceně, co ne a jak poznat audit, který nic neříká.", "tag": "Cena"},
         {"href": "blog/audit-eshopu/", "title": "SEO audit e-shopu: co zkontrolovat jako první",
          "desc": "Kategorie, produkty, filtry a feedy. 15 bodů specifických pro e-shopy na Shoptet a Upgates.", "tag": "E-shop"},
     ],
@@ -272,7 +272,7 @@ BLOG_ARTICLES = {
             "title": "SEO audit krok za krokom: návod 2026 | SEO audit",
             "desc": "SEO audit webu sám: 15 kontrolných bodov z Search Console, PageSpeed a obsahu. Kedy si audit nechať urobiť profesionálne.",
             "date_display": "17. 9. 2026", "date_iso": "2026-09-17",
-            "answer": "SEO audit sám urobíte za 30 minút: 15 bodov v Google Search Console (indexácia, kliky, pozície), PageSpeed Insights (LCP, INP, CLS) a kontrola obsahu. Cieľ je zistiť tri veci: čo Google vidí, čo je pomalé a na ktoré dopyty sa už zobrazujete. Komplexný audit s plánom opráv od 96 EUR.",
+            "answer": "SEO audit sám urobíte za 30 minút: 15 bodov v Google Search Console (indexácia, kliky, pozície), PageSpeed Insights (LCP, INP, CLS) a kontrola obsahu. Cieľ je zistiť tri veci: čo Google vidí, čo je pomalé a na ktoré dopyty sa už zobrazujete. Komplexný audit s plánom opráv od 120 EUR.",
             "sections": """
 <h2>Čo je SEO audit a čo vám povie</h2>
 <p>SEO audit je kontrola webu z pohľadu Google. Odpovie na tri otázky: vidí Google všetky vaše stránky, ako rýchlo sa web načítava a na ktoré dopyty sa už zobrazujete. Bez auditu robíte SEO naslepo: meníte veci, ktoré možno nie sú problém, a necháte problém, ktorý brzdí celý web.</p>
@@ -296,10 +296,10 @@ BLOG_ARTICLES = {
 </ul>
 
 <h2>Kedy si dať audit urobiť profesionálne</h2>
-<p>Samoaudít zistí zjavné problémy. Nezistí: čo konkurencia robí lepšie, na ktorých dopytoch sa dá rýchlo posunúť (striking distance), duplicitné URL, štruktúrované dáta, AI viditeľnosť (či vás ChatGPT odporúča). Kompletný audit s plánom podľa priorít: firemný web 8 hodín = 96 EUR, e-shop 10 až 15 hodín = 120 až 180 EUR. Vstupný audit je bezplatný.</p>
+<p>Samoaudít zistí zjavné problémy. Nezistí: čo konkurencia robí lepšie, na ktorých dopytoch sa dá rýchlo posunúť (striking distance), duplicitné URL, štruktúrované dáta, AI viditeľnosť (či vás ChatGPT odporúča). Kompletný audit s plánom podľa priorít: web 10 hodín = 120 EUR, e-shop 15 hodín = 180 EUR. Vstupný audit je bezplatný.</p>
 """,
             "faq": [
-                ("Je bezplatný SEO audit skutočne zdarma?", "Áno. Vstupný audit a 30-minútový hovor sú bezplatné. Plný audit s plánom od 96 EUR."),
+                ("Je bezplatný SEO audit skutočne zdarma?", "Áno. Vstupný audit a 30-minútový hovor sú bezplatné. Plný audit s plánom od 120 EUR."),
                 ("Aké nástroje na audit potrebujem?", "Google Search Console a PageSpeed Insights, obe zdarma. Na dopyty a objemy Marketing Miner. Súbor nástrojov neznamená znalosti: rozhoduje interpretácia."),
                 ("Ako dlho trvá profesionálny audit?", "Plný audit 5 až 10 pracovných dní. Dostanete čitateľný zoznam bodov s prioritami, nie surový výpis z nástrojov."),
             ],
@@ -314,7 +314,7 @@ BLOG_ARTICLES = {
             "title": "SEO audit krok za krokem: návod 2026 | SEO audit",
             "desc": "SEO audit webu sám: 15 kontrolních bodů ze Search Console, PageSpeed a obsahu. Kdy si audit nechat udělat profesionálně.",
             "date_display": "17. 9. 2026", "date_iso": "2026-09-17",
-            "answer": "SEO audit zvládnete sám za 30 minut: 15 bodů v Google Search Console (indexace, pozice), PageSpeed Insights (LCP, INP, CLS) a kontrola obsahu. Komplexní audit s plánem oprav od 96 EUR (12 EUR za hodinu). Vstupní audit je bezplatný.",
+            "answer": "SEO audit zvládnete sám za 30 minut: 15 bodů v Google Search Console (indexace, pozice), PageSpeed Insights (LCP, INP, CLS) a kontrola obsahu. Komplexní audit s plánem oprav od 120 EUR (12 EUR za hodinu). Vstupní audit je bezplatný.",
             "sections": """
 <h2>Co je SEO audit a co vám řekne</h2>
 <p>SEO audit odpovídá na tři otázky: vidí Google všechny vaše stránky, jak rychle se web načítá a na které dotazy se už zobrazujete. Bez auditu měníte věci, které možno nejsou problém, a necháte problém, který brzdí celý web.</p>
@@ -338,10 +338,10 @@ BLOG_ARTICLES = {
 </ul>
 
 <h2>Kdy si dát audit profesionálně</h2>
-<p>Samoaudit najde zjevné problémy. Ne najde: co dělá konkurence lépe, kde se dá rychle posunout, strukturovaná data a AI viditelnost. Kompletní audit: firemní web 8 hodin = 96 EUR, e-shop 10 až 15 hodin = 120 až 180 EUR.</p>
+<p>Samoaudit najde zjevné problémy. Ne najde: co dělá konkurence lépe, kde se dá rychle posunout, strukturovaná data a AI viditelnost. Kompletní audit: web 10 hodin = 120 EUR, e-shop 15 hodin = 180 EUR.</p>
 """,
             "faq": [
-                ("Je bezplatný SEO audit opravdu zdarma?", "Ano, vstupní audit a hovor jsou bezplatné. Plný audit od 96 EUR."),
+                ("Je bezplatný SEO audit opravdu zdarma?", "Ano, vstupní audit a hovor jsou bezplatné. Plný audit od 120 EUR."),
                 ("Jaké nástroje na audit potřebuji?", "Search Console a PageSpeed Insights, obě zdarma. Rozhoduje interpretace dat, ne počet nástrojů."),
                 ("Jak dlouho trvá profesionální audit?", "5 až 10 pracovních dní. Dostanete čitelný seznam bodů s prioritami."),
             ],
@@ -374,7 +374,7 @@ BLOG_ARTICLES = {
 <p>Stránky typu "SEO analyzer zdarma" dajú skóre 45/100 a zoznam všeobecných rád. Skóre je marketingový nástroj, nie audit. Reálny audit odpovedá na otázky špecifické pre váš web: prečo táto kategória nestojí, ktoré dopyty sa dajú dobyť, čo konkurencia robí lepšie.</p>
 
 <h2>Audit nástrojom vs audit človekom</h2>
-<p>Nástroj nájde technické chyby (404, presmerovania, pomalé stránky). Človek interpretuje: čo ta chyba znamená pre váš predaj, v akom poradí to riešiť a čo to prinesie. Súrod sa robí: nástroje na dáta, človek na plán. Plný audit s plánom: od 96 EUR, vstupný audit bezplatný.</p>
+<p>Nástroj nájde technické chyby (404, presmerovania, pomalé stránky). Človek interpretuje: čo ta chyba znamená pre váš predaj, v akom poradí to riešiť a čo to prinesie. Súrod sa robí: nástroje na dáta, človek na plán. Plný audit s plánom: od 120 EUR, vstupný audit bezplatný.</p>
 """,
             "faq": [
                 ("Je SEO audit online zdarma možný?", "Áno, základný audit urobíte zdarma cez Search Console a PageSpeed Insights. Rozdíl je v interpretácii a pláne opráv."),
@@ -408,7 +408,7 @@ BLOG_ARTICLES = {
 <p>Stránky typu "SEO test zdarma" dají skóre 45/100 a seznam obecných rad. Skóre je marketing, audit odpovídá na otázky specifické pro váš web: proč tato kategorie nestojí, kde se dá rychle posunout.</p>
 
 <h2>Nástroj vs člověk</h2>
-<p>Nástroj najde technické chyby. Člověk interpretuje: co chyba znamená pro váš prodej, v jakém pořadí to řešit. Plný audit s plánem: od 96 EUR, vstupní audit bezplatný.</p>
+<p>Nástroj najde technické chyby. Člověk interpretuje: co chyba znamená pro váš prodej, v jakém pořadí to řešit. Plný audit s plánem: od 120 EUR, vstupní audit bezplatný.</p>
 """,
             "faq": [
                 ("Je SEO audit online zdarma možný?", "Ano, základní audit zdarma přes Search Console a PageSpeed. Rozdíl je v interpretaci a plánu oprav."),
@@ -426,16 +426,15 @@ BLOG_ARTICLES = {
             "label": "Cena",
             "h1": "Koľko stojí SEO audit (2026)? Ceny a čo za ne dostanete",
             "title": "Koľko stojí SEO audit | SEO audit",
-            "desc": "Cena SEO auditu: vstupný audit zdarma, plný od 96 EUR (firemný web) po 180 EUR (e-shop). Čo je v cene a ako spoznať audit, ktorý nič nevraví.",
+            "desc": "Cena SEO auditu: vstupný audit zdarma, plný od 120 EUR (firemný web) po 180 EUR (e-shop). Čo je v cene a ako spoznať audit, ktorý nič nevraví.",
             "date_display": "17. 9. 2026", "date_iso": "2026-09-17",
-            "answer": "SEO audit stojí od 96 EUR: firemný web 8 hodín (96 EUR), e-shop 10 až 15 hodín (120 až 180 EUR) pri hodinovej sadzbe 12 EUR. Vstupný audit je bezplatný. Agentúry účtujú za audit 300 až 1000 EUR, často za vygenerovaný výpis z nástroja, ktorý si môžete urobiť zdarma.",
+            "answer": "SEO audit stojí od 120 EUR: plný audit webu 10 hodín (120 EUR), e-shop 15 hodín (180 EUR) pri hodinovej sadzbe 12 EUR. Vstupný audit je bezplatný. Agentúry účtujú za audit 300 až 1000 EUR, často za vygenerovaný výpis z nástroja, ktorý si môžete urobiť zdarma.",
             "sections": """
 <h2>Cenová stupnica SEO auditu</h2>
 <ul>
 <li><strong>Vstupný audit</strong>: bezplatný. 30-minútový hovor a rýchla kontrola webu, odhad čo by SEO u vás znamenalo.</li>
-<li><strong>Plný audit: malý web</strong>: 5 hodín = 60 EUR. Technika, obsah, pozície, plán opráv.</li>
-<li><strong>Plný audit: firemný web</strong>: 8 hodín = 96 EUR. Plus konkurencia a obsahový plán.</li>
-<li><strong>Plný audit: e-shop</strong>: 10 až 15 hodín = 120 až 180 EUR. Plus kategórie, produkty, filtre, feedy.</li>
+<li><strong>Plný audit: web</strong>: 10 hodín = 120 EUR. Technika, obsah, pozície, plán opráv.</li>
+<li><strong>Plný audit: e-shop</strong>: 15 hodín = 180 EUR. Plus kategórie, produkty, filtre, feedy.</li>
 </ul>
 
 <h2>Čo má byť v audite</h2>
@@ -461,16 +460,15 @@ BLOG_ARTICLES = {
             "label": "Cena",
             "h1": "Kolik stojí SEO audit (2026)?",
             "title": "Kolik stojí SEO audit | SEO audit",
-            "desc": "Cena SEO auditu: vstupní zdarma, plný od 96 EUR (firemní web) po 180 EUR (e-shop). Co je v ceně a jak poznat audit, který nic neříká.",
+            "desc": "Cena SEO auditu: vstupní zdarma, plný od 120 EUR (firemní web) po 180 EUR (e-shop). Co je v ceně a jak poznat audit, který nic neříká.",
             "date_display": "17. 9. 2026", "date_iso": "2026-09-17",
-            "answer": "SEO audit stojí od 96 EUR: firemní web 8 hodin (96 EUR), e-shop 10 až 15 hodin (120 až 180 EUR) při hodinové sazbě 12 EUR. Vstupní audit je bezplatný. Agentury účtují za audit 300 až 1000 EUR, často za vygenerovaný výpis, který zvládnete zdarma.",
+            "answer": "SEO audit stojí od 120 EUR: plný audit webu 10 hodin (120 EUR), e-shop 15 hodin (180 EUR) při hodinové sazbě 12 EUR. Vstupní audit je bezplatný. Agentury účtují za audit 300 až 1000 EUR, často za vygenerovaný výpis, který zvládnete zdarma.",
             "sections": """
 <h2>Cenová stupnice SEO auditu</h2>
 <ul>
 <li><strong>Vstupní audit</strong>: bezplatný. 30minutový hovor a rychlá kontrola webu.</li>
-<li><strong>Plný audit: malý web</strong>: 5 hodin = 60 EUR.</li>
-<li><strong>Plný audit: firemní web</strong>: 8 hodin = 96 EUR. Plus konkurence a obsahový plán.</li>
-<li><strong>Plný audit: e-shop</strong>: 10 až 15 hodin = 120 až 180 EUR. Plus kategorie, produkty, filtry, feedy.</li>
+<li><strong>Plný audit: web</strong>: 10 hodin = 120 EUR. Plus konkurence a obsahový plán.</li>
+<li><strong>Plný audit: e-shop</strong>: 15 hodin = 180 EUR. Plus kategorie, produkty, filtry, feedy.</li>
 </ul>
 
 <h2>Co má být v auditu</h2>
@@ -500,7 +498,7 @@ BLOG_ARTICLES = {
             "title": "SEO audit e-shopu | SEO audit",
             "desc": "SEO audit e-shopu: kategórie, produkty, filtre, XML feedy a riešenie duplicit. 15 bodov špecifických pre Shoptet a Upgates. Od 120 EUR.",
             "date_display": "17. 9. 2026", "date_iso": "2026-09-17",
-            "answer": "SEO audit e-shopu kontroluje 15 bodov, ktoré bežný audit nepokrýva: duplicitné URL z filtrov, kanonické adresy produktov, XML feed pre Google Merchant Center, texty kategórií na reálne hľadania, štruktúrované dáta produktov a dostupnosť vo feede. E-shop audit trvá 10 až 15 hodín = 120 až 180 EUR.",
+            "answer": "SEO audit e-shopu kontroluje 15 bodov, ktoré bežný audit nepokrýva: duplicitné URL z filtrov, kanonické adresy produktov, XML feed pre Google Merchant Center, texty kategórií na reálne hľadania, štruktúrované dáta produktov a dostupnosť vo feede. E-shop audit trvá 15 hodín = 180 EUR.",
             "sections": """
 <h2>Prečo je e-shop audit iný</h2>
 <p>E-shop má tisíce stránok, filtre a varianty. Každá technická chyba sa násobí: jedna zlá šablóna popisu = 5 000 slabých produktových stránok. Preto e-shop audit začína systémom (šablóny, pravidlá, feedy), nie jednotlivými stránkami.</p>
@@ -536,7 +534,7 @@ BLOG_ARTICLES = {
             "title": "SEO audit e-shopu | SEO audit",
             "desc": "SEO audit e-shopu: kategorie, produkty, filtry, XML feedy, řešení duplicit. 15 bodů pro Shoptet a Upgates. Od 120 EUR.",
             "date_display": "17. 9. 2026", "date_iso": "2026-09-17",
-            "answer": "SEO audit e-shopu řeší, co běžný audit nevidí: duplicitní URL z filtrů, kanonické adresy produktů, XML feed pro Merchant Center, texty kategorií na reálná hledání a strukturovaná data. E-shop audit trvá 10 až 15 hodin = 120 až 180 EUR (12 EUR za hodinu).",
+            "answer": "SEO audit e-shopu řeší, co běžný audit nevidí: duplicitní URL z filtrů, kanonické adresy produktů, XML feed pro Merchant Center, texty kategorií na reálná hledání a strukturovaná data. E-shop audit trvá 15 hodin = 180 EUR (12 EUR za hodinu).",
             "sections": """
 <h2>Proč je e-shop audit jiný</h2>
 <p>E-shop má tisíce stránek a jedna šablona popisu = 5000 slabých produktových stránek. Proto e-shop audit začíná systémem (šablony, pravidla, feedy), ne jednotlivými stránkami.</p>
@@ -553,7 +551,7 @@ BLOG_ARTICLES = {
 </ul>
 
 <h2>Kolik trvá e-shop audit</h2>
-<p>10 až 15 hodin = 120 až 180 EUR (12 EUR za hodinu). Výsledek do 10 pracovních dní: seznam oprav s prioritami a odhadem hodin. Vstupní audit je bezplatný.</p>
+<p>15 hodin = 180 EUR (12 EUR za hodinu). Výsledek do 10 pracovních dní: seznam oprav s prioritami a odhadem hodin. Vstupní audit je bezplatný.</p>
 """,
             "faq": [
                 ("Pro které platformy děláte e-shop audit?", "Shoptet, Upgates, WooCommerce i PrestaShop."),

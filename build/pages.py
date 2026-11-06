@@ -213,13 +213,23 @@ def cennik(market: str = "sk") -> tuple[str, str]:
     for card in cards:
         feat = " featured" if card.get('featured') else ""
         badge = f'<span class="price-badge">{c["price_badge"]}</span>' if card.get('featured') else ""
+        breakdown = card.get('breakdown', '')
+        breakdown_html = f'<div class="price-breakdown" style="font-size:12px; color:var(--text-muted); margin-top:2px;">{breakdown}</div>' if breakdown else ""
+        if card['price'] == 0:
+            amount_html = '0<small> EUR</small>'
+            sub_html = f'<div class="price-monthly"><strong>{card["hours"]}</strong> (30-min hovor)</div>'
+        else:
+            once = "jednorazovo" if market == "sk" else "jednorázově"
+            amount_html = f'{card["price"]}<small> EUR {once}</small>'
+            sub_html = f'<div class="price-monthly"><strong>{card["hours"]}</strong> (12 EUR / hod.)</div>'
         lis = "".join(f"<li>{i}</li>" for i in card['items'])
         out.append(f"""
 <div class="price-card{feat}">
   {badge}
   <span class="price-hours">{card['name']}</span>
-  <div class="price-amount">{card['price']}<small> EUR / {c['price_period']}</small></div>
-  <div class="price-monthly"><strong>{card['hours']}</strong> × 12 EUR / hod.</div>
+  <div class="price-amount">{amount_html}</div>
+  {sub_html}
+  {breakdown_html}
   <ul>{lis}</ul>
   <a href="{root}kontakt/" class="btn btn-primary">{c['price_cta']}</a>
 </div>""")
